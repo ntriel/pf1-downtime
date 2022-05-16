@@ -491,6 +491,13 @@ async function UpkeepPhase(step = 1){
 							Check('stability', 1);
 							UpkeepPhase(step + 1);
 						}
+					},
+					next: {
+						//icon: '<i class="fas fa-check"></i>',
+						label: "Next step",
+						callback: () => {
+							UpkeepPhase(step + 1);
+						}
 					}
 				},
 				default: "stabilityCheck",
@@ -803,7 +810,7 @@ async function EdictPhase(step = 1){
 						//icon: '<i class="fas fa-check"></i>',
 						label: "Next Step",
 						callback: () => {
-							IncomePhase(1);
+							IncomePhase();
 						}
 					}
 				},
