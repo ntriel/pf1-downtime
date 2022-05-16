@@ -2,7 +2,7 @@
 	"name": "pf1-downtime",
 	"title": "PF1 Downtime",
 	"description": "Macros to help with Downtime Activities in PF1.",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"minimumCoreVersion": "0.8.8",
 	"compatibleCoreVersion": "9",
 	"system": "pf1",
@@ -20,7 +20,7 @@
 		
 	],
 	"url": "https://github.com/ntriel/pf1-downtime",
-	"download": "https://github.com/ntriel/pf1-downtime/archive/v1.0.1.zip",
+	"download": "https://github.com/ntriel/pf1-downtime/archive/v1.0.2.zip",
 	"manifest": "https://raw.githubusercontent.com/ntriel/pf1-downtime/main/module.json",
 	"readme": "https://github.com/ntriel/pf1-downtime/blob/main/README.md",
 	"changelog": "https://github.com/ntriel/pf1-downtime/blob/main/CHANGELOG.md",
