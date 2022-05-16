@@ -345,7 +345,11 @@ Rear a Wild Animal: Depending on the maturation rate of the animal, this can tak
 */
 
 
+let sheetId = "1OnVp8mTgYzhw3QMffNfrnLnPFnHlxM6tCTGJ3MYe6K4";
 
+function SetSheetId(id){
+	
+}
 
 //*****************************************************************************************************************************************************
 //Kingdom Building
@@ -1187,7 +1191,6 @@ let CheckSubtypes = {
 };
 
 async function GetKingdomData(){
-	let sheetId = "1RoH8ZctBpbmHdqYC8h-BOxjJd9ZXXNbDiMci8DoNTTA";
 	let sheetName = "JSON";
 	const url = "https://opensheet.elk.sh/" + sheetId + "/" + sheetName;
 	let response = await fetch(url).then(res => res.text()).then(data => { return JSON.parse(data)});
@@ -1195,7 +1198,6 @@ async function GetKingdomData(){
 }
 
 function Check(type, subType = 0){
-	let sheetId = "1RoH8ZctBpbmHdqYC8h-BOxjJd9ZXXNbDiMci8DoNTTA";
 	let sheetName = "JSON";
 	
 	type = type.toLowerCase();
