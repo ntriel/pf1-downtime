@@ -803,7 +803,7 @@ async function EdictPhase(step = 1){
 						//icon: '<i class="fas fa-check"></i>',
 						label: "Next Step",
 						callback: () => {
-							EdictPhase(step + 1);
+							IncomePhase(1);
 						}
 					}
 				},
