@@ -1970,3 +1970,13 @@ async function UpdateSpreadSheet(sheetID,sheetName,range,value){
 	
 	return response;
 }
+
+
+let CharacterRollCol = {
+	"Velstall": "AL",
+	"Errol Polye": "P",
+	"Azarov": "E",
+	"Elmera Tysma": "BH",
+	"Nezumi": "AW",
+	"Malnus Paperhill": "AA"
+};
