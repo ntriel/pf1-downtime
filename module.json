@@ -2,10 +2,22 @@
 	"name": "pf1-downtime",
 	"title": "PF1 Downtime",
 	"description": "Macros to help with Downtime Activities in PF1.",
-	"version": "1.0.6",
-	"minimumCoreVersion": "0.8.8",
-	"compatibleCoreVersion": "9",
-	"system": "pf1",
+	"version": "1.0.7",
+	"relationships": {
+		"systems": [{
+			"id": "pf1",
+			"type": "system",
+			"manifest": "https://gitlab.com/foundryvtt_pathfinder1e/foundryvtt-pathfinder1/-/releases/permalink/latest/downloads/system.json",
+			"compatibility": {
+				"verified": "9.1.0"
+			}
+		}]
+	},
+	"compatibility": {
+		"minimum": 10,
+		"verified": "11",
+		"maximum": "11"
+	},
 	"socket": true,
 	"authors": [{
 		"name": "Νtriel#9341"
@@ -15,6 +27,14 @@
 	],
 	"scripts": [
 		"js/downtimeMacro.js"
+	],
+	"packFolders": [
+		{
+			"name": "Pathfinder Downtime",
+			"sorting": "a",
+			"packs": ["pf1-downtime-macros"],
+			"folders": []
+		}
 	],
 	"packs": [
 		{
@@ -27,7 +47,7 @@
 		
 	],
 	"url": "https://github.com/ntriel/pf1-downtime",
-	"download": "https://github.com/ntriel/pf1-downtime/archive/v1.0.6.zip",
+	"download": "https://github.com/ntriel/pf1-downtime/archive/v1.0.7.zip",
 	"manifest": "https://raw.githubusercontent.com/ntriel/pf1-downtime/main/module.json",
 	"readme": "https://github.com/ntriel/pf1-downtime/blob/main/README.md",
 	"changelog": "https://github.com/ntriel/pf1-downtime/blob/main/CHANGELOG.md",
