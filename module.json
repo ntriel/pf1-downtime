@@ -42,7 +42,7 @@
 			"label": "PF1 Downtime Macros",
 			"system": "pf1",
 			"path": "./packs/pf1-downtime-macros.db",
-			"entity": "Macro"
+			"type": "Macro"
 		}
 		
 	],
